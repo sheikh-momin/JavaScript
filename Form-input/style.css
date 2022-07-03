@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #dddeee;
+}
+
+.form {
+    width: 300px;
+    height: 220px;
+    background: #ffff;
+    margin: 10px;
+    text-align: center;
+    border: #dddeee;
+    border-radius: 3px;
+    position: center;
+    margin-left: 40%;
+    padding-top: 25px;
+}
+
+.header {
+    padding-bottom: 2px;
+}
+
+.btn {
+    background: black;
+    color: #dddeee;
+    width: 20%;
+    height: 25px;
+    border: #ffff;
+    border-radius: 3px;
+}
+
+.input {
+    padding-top: 10px;
+}

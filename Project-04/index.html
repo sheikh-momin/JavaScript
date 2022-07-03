@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Change The Background Color</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="root">
+        <h1>
+            Change The Background Color By Clicking The Following Button
+        </h1>
+        <div class="label-group">
+            <label for="output">Hex Code</label>
+        </div>
+        <div class="input-group">
+            <div class="input-icon">#</div>
+            <input type="text" value="000000" id="output" class="output">
+            <button class="copy-btn" title="copy to clipboard" id="copy-btn">
+            copy
+
+          </button>
+        </div>
+
+        <div class="label-group">
+            <label for="output">Hex Code</label>
+        </div>
+        <div class="input-group">
+            <input type="text" value="rgb(0,0,0)" id="output2" class="output" style="margin-left: -1rem" disabled>
+            <button class="copy-btn" title="copy to clipboard" id="copy-btn2">
+            copy
+
+          </button>
+        </div>
+        <button id="change-btn">Change Color</button>
+    </div>
+</body>
+
+</html>

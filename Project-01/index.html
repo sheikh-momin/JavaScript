@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bachelor Monthly Cost</title>
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+
+    <style>
+        .main {
+            display: flexbox;
+        }
+        
+        .right-section {
+            float: right;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div class="container main mt-3">
+        <header class="text-center mb-3">
+            <h1>Bachelor Monthly Cost</h1>
+        </header>
+
+        <div class="row">
+            <div class="lest-section rounded border col-12 col-lg-6 mx-2" style="background: #F7F7F7; width: 48%; display: inline-block; ">
+                <img class="img-fluid" src="https://resources.tallysolutions.com/wp-content/uploads/2020/01/cost-of-capital-1.png" alt="img">
+            </div>
+
+            <div class="right-section rounded border col-12 col-lg-6 mx-2" style="background: #F7F7F7; width: 48%; height: auto;">
+                <h3 class="font-weight-bolder text-center mt-2">Income</h3>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Income</span>
+                    <input id="income" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <h3 class="font-weight-bolder text-center mt-2">Expenses</h3>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Food   </span>
+                    <input id="food" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Rent  </span>
+                    <input id="rent" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Clothes</span>
+                    <input id="clothes" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                </div>
+
+                <div class="d-grid gap-2 d-md-block text-center">
+                    <button type="button" id="calculate-btn" class="btn btn-primary p-@" data-bs-toggle="button" autocomplete="off">Calculate</button>
+
+                </div>
+
+                <h3 class="text-center m-3">
+                    Total Expenses:
+                    <span id="total-expenses">00</span>
+                </h3>
+                <h3 class="text-center m-3">
+                    Balance:
+                    <span id="balance">00</span>
+                </h3>
+                <div class="row mb-3 my-3 justify-content-center">
+                    <div class="d-flex col-3 me-4">
+                        <label class="col-sm-6 col-8 col-form-label">Save:</label>
+                        <div class="col-sm-10 col-6">
+                            <input id="save" type="text" class="form-control" id="save-input" placeholder="20">
+                        </div>
+                    </div>
+                    <div class="d-flex col-3 ">
+                        <label class="col-sm-6 col-8 col-form-label"> % </label>
+                        <div class="col-sm-10 col-6">
+                            <button type="button" class="btn btn-primary btn" id="save-input">Save</button>
+                        </div>
+                    </div>
+                </div>
+                <h3 class="text-center">
+                    Saving Amount:
+                    <span id="saving-amount">00</span>
+                </h3>
+                <h3 class="text-center">
+                    Remaining Balance:
+                    <span id="remaining-balance">00</span>
+                </h3>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- bootstrap5 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+
+</html>
